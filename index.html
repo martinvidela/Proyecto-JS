@@ -12,7 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
@@ -26,10 +27,15 @@
         </h2>
     </header>
     <main>
-        <div class="container p-1">
+        <div class="container">
             <div class="caja">
                 <p class="parrafo">Ingrese el precio de el juego que desee:</p>
-                <input type="text" class="btn btn-light margin-auto" placeholder="Ingrese precio">
+                <input type="number" id="num1" class="btn btn-light" placeholder="Ingrese precio">
+                <button class="btn btn-light" onclick="multiplicar()">Calcular</button>
+                <p class="impuestos">Percepción de Ganancias y Bienes Personales
+                    RG AFIP Nº 5232/2022
+                    45%</p>
+                <p class="impuestos"> Ley Impuesto PAIS RG AFIP N° 4659/2020 30%</p>
             </div>
         </div>
     </main>
