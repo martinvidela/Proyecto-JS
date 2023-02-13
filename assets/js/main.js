@@ -1,4 +1,4 @@
- let nombreIngreso = prompt("Ingrese su SteamID");
+let nombreIngreso = prompt("Ingrese su SteamID");
 
 while (nombreIngreso == "" || nombreIngreso == null) {
     nombreIngreso = prompt("Coloque un nombre valido")
