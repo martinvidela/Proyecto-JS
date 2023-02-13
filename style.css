@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+
+body {
+    background: url(/gif.gif);
+}
+
+.titulo {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin-top: 85px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.subtitle{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.467);
+}
+
+.caja {
+    background-color: #6d071af0;
+    height: 600px;
+    margin: auto auto;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.parrafo{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
