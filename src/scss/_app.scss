@@ -1,0 +1,61 @@
+/***************************** APP *****************************/
+
+
+
+.bodyApp {
+    background-color: $paletabackground;
+}
+
+.tituloApp {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    color: $titulocolor;
+    font-style: italic;
+    margin-bottom: 15px;
+
+}
+
+.AppUs {
+    color: #b70e21;
+}
+
+.installbtn {
+    margin-top: 150px;
+    width: 350px;
+    height: 115px;
+    font-size: 30px;
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(90deg, rgba(175, 175, 175, 1) 0%, rgba(140, 140, 140, 1) 100%);
+    border: solid #000;
+    animation: pulse 1.5s infinite;
+  
+
+}
+
+.parrafoInstall {
+    color: white;
+    width: 350px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+margin-bottom: 150px;
+}
+
+.botoninstall {
+    display: flex;
+flex-direction: column;
+    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.iconosmarca {
+    letter-spacing: 5px;
+    color: white;
+    font-size: 45px;
+}
+
+/***************************** APP FIN *****************************/

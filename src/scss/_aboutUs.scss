@@ -1,0 +1,55 @@
+/***************************** AboutUs *****************************/
+
+
+.bodyAboutus {
+    background-color: #0a141d;
+}
+
+.encabezadoAboutus {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.principal1 {
+    margin: 5px;
+    font-size: 90px;
+    color: $titulocolor;
+}
+
+.principal2 {
+    margin: 5px;
+    font-style: italic;
+    color: #9b1222;
+}
+
+.principal3 {
+    margin-top: 15px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 250px;
+    transition: 0.3s;
+
+    &:hover {
+        background: #fff;
+        color: #000;
+    }
+}
+
+
+
+.principal4 {
+    margin-top: 15px;
+    font-size: 60px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+
+
+/***************************** About us FIN *****************************/
