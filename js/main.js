@@ -36,13 +36,9 @@ let tallesZapatillas = ["36", "37", "38", "39", "40", "41", "42", "43"];
 
 let talleSeleccionado = prompt("Por favor ingresa tu talle de calzado..")
 
-if (tallesZapatillas.includes(talleSeleccionado)) {
-    alert("Elegiste el talle: " + talleSeleccionado)
-
-} else {
+do{
     talleSeleccionado = prompt("Talle no disponible, ingrese otro talle.")
-
-}
+} while(!tallesZapatillas.includes(talleSeleccionado))
 
 //Zapatillas 
 const stockZapatillas = [{
